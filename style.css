@@ -3,6 +3,7 @@
     display: flex;
     gap: 20px; /* Adjust this number to add more or less space between items */
     margin-bottom: 40px; /* Creates a large gap below the entire navigation bar */
+    text-align: center;
 }
 
 /* Style the navigation links slightly so they look clean */
@@ -17,4 +18,31 @@
 .email-section {
     font-family: Arial, sans-serif;
     color: #555;
+}
+
+body {
+    background-color: black;
+    font-family: Arial sans-serif;
+    text-align: center;
+    padding: 50px;
+
+}
+
+p {
+color: whitesmoke;
+font-size: 18px;
+}
+
+button {
+    background-color: #333;
+    color: whitesmoke;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+img {
+    max-width: 50;
+    height: auto;
 }
